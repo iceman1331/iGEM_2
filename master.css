@@ -1,0 +1,87 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+ }
+
+ h1{
+     height: 1000px;
+     width: 100%;
+ }
+
+ p {
+     height: 200px;
+     width: 40%;
+     border-radius: 30px;
+     margin: 10px;
+     opacity: 0;
+     transform: translateY(4em) rotateZ(-5deg);
+     transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              opacity .3s .25s ease-out;
+ }
+
+ p.is-visible {
+     opacity: 1;
+     transform: rotateZ(-2deg);
+ }
+
+svg {
+    border: 5px;
+    border-style: dashed;
+    border-color: aqua;
+    position: fixed;
+    left: 550px;
+    bottom: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+
+ #one {
+     background-color: blue;
+     float: left;
+ }
+
+ #two {
+     background-color: red;
+     float: right;
+ }
+ 
+ #three{
+     background-color: yellowgreen;
+     float: left;
+ }
+ 
+ #four{
+     background-color: cyan;
+     float: right;
+ }
+ 
+ #five{
+     background-color: magenta;
+     float: left;
+ }
+
+ #six{
+     background-color: black;
+     float: right;
+ }
+ 
+ #seven{
+     background-color: olive;
+     float: left;
+ }
+
+ #eight{
+     background-color: maroon;
+     float: right;
+ }
+
+ #nine{
+     background-color: silver;
+     float: left;
+ }
+
+ #ten{
+     background-color: gold;
+     float: right;
+ }
