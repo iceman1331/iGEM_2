@@ -15,6 +15,11 @@
 </style>
 </head>
 <body>
+    
+    <div class="loader">
+        <img src="simple_dna.gif">
+    </div>
+    
     <div>
         <section id="tophead">
         <he1>Space reserved for header</he1>
@@ -90,6 +95,14 @@
         </section>
     </div>
         <he1 style="text-align: center; margin-left: 43%;">Space for footer</he1>
+    
+    <script type="text/javascript">
+        window.addEventListener("load", function () {
+            const loader = document.querySelector(".loader");
+            loader.className += " hidden"; // new class = "loader hidden"
+        
+        });
+    </script>
     
 </body>
 </html>
