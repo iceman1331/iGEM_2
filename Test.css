@@ -105,11 +105,12 @@ p {
 #tophead{
     text-align: center;
     padding: 0;
-    color: red;
+    color: #A9A2A2;
 }
 
 #imghead{
-    background-image: linear-gradient(110deg,rgb(205,233,243,0.5),rgb(223,241,247,0.5));
+    /*background-image: linear-gradient(110deg,rgb(205,233,243,0.5),rgb(223,241,247,0.5));
+    */background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     }
 
 #cta {
@@ -180,12 +181,15 @@ p {
 }
 
 #para{
+    font-family: 'IBM Plex Serif', serif;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background: #C9CCD3;
+ background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: lighten;
     text-align: justify;
     font-family: 'Helvetica';
     font-size: 1.5rem;
@@ -199,7 +203,7 @@ article {
     position: relative;
     top: 50%;
     left: 50%;
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: center;
     transform: translate(-50%, -50%);
     color: #fff;
@@ -222,6 +226,7 @@ he1 {
 
 .left-half1 {
     background: #ff9e2c;
+    background-image: ;
     border-radius: 500px;
     grid-column: 1;
     grid-row: 1;
