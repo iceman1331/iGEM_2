@@ -2,22 +2,21 @@
 
 <html>
 <head>
-    <!-- Chrome, Firefox OS and Opera -->
+<!-- Chrome, Firefox OS and Opera -->
 <meta name="theme-color" content="#049246">
 <!-- Windows Phone -->
 <meta name="msapplication-navbutton-color" content="#049246">
 <!-- iOS Safari -->
 <meta name="apple-mobile-web-app-status-bar-style" content="#049246">
-    <link rel="stylesheet" href="Test.css"/>
-    <style>
+<link rel="stylesheet" href="Test.css"/>
+<style>
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap');
-
 </style>
 </head>
 <body>
     
     <div class="loader">
-        <img src="simple_dna.gif">
+        <img src="simple_dna.gif" style="width: 800px;height:600px;background-color: grey;">
     </div>
     
     <div>
@@ -25,6 +24,7 @@
         <he1>Space reserved for header</he1>
         </section>
     </div>
+    
     <div class="fade-in">
         <section id="imghead">
             <img src="Math_4.gif" alt="" >
@@ -45,21 +45,28 @@
                 <img src="Line_2.png" style="height:10px;width:450px;" alt="" >
         </section>
     </div>
+    
     <section id="para-container">
         <section id="para">
             <p style="text-align: center; font-size: 2rem;font-family: 'IBM Plex Serif', serif;">Text below is a placeholder</p>
             <p>Since the 1920s, diabetes treatments have depended on expensive and invasive insulin injections. We propose The BIG PIE which intends to tackle diabetes without insulin injections. A cheap, non-invasive alternative to injections. Our project is based on the principle of “transdifferentiation” where we transform one somatic cell type into another type. We intend to reprogram a subset of gut cells into β-islet-like cells, capable of glucose-responsive insulin secretion. This has previously done with viruses. But due to safety and health concerns, we have replaced viral vectors with E.coli Nissle a probiotic bacteria that will serve as our delivery vector.
-</p>
+            </p>
         </section>
     </section>
+    
     <div class="fade-in">
         <section id="overview">
             <p style="font-size: 5rem;">Approximations</p>
-                <img src="Line_2.png" style="height:10px;width:450px;" alt="" >
+            <img src="Line_2.png" style="height:10px;width:450px;" alt="" >
         </section>
     </div>
-    
 
+    
+    <div class="pill-image-container">
+        <img src="pill_4.png" alt="Snow" style="height:120px;width: auto;">
+        <div class="centered" style="">Pill Design</div>
+    </div>
+    
     <section class="container">
         <div class="left-half1">
             <article>
@@ -76,35 +83,49 @@
         </div>
         
         <div class="left-half2">
-                <img src="Maths_3.gif" style="width: 200px;height:auto">
+            <img src="Maths_3.gif" style="width: 200px;height:auto">
         </div>
         
         <div class="right-half2">
-                <img src="predictive.gif" style="width:50%;height:auto">
+            <img src="predictive.gif" style="width:50%;height:auto">
         </div>
         
-        <div class="left-half3" style="color: red;">
-                <img src="pill.gif" style="width:50%;height:auto">
+        <div class="left-half3">
+            <img src="pill.gif" style="width:50%;height:auto">
         </div>
     </section>
+    
+    <section class="pillcontainer" style="padding-bottom: : 40%:">
+        <div class="pill-left">
+            <div class="pill-left-text">
+                <pill-left-text>Pill</pill-left-text>
+            </div>
+        </div>
+        
+        <div class="pill-right">
+            <div class="pill-right-text">
+            <pill-right-text>Design</pill-right-text>
+            </div>
+        </div>
+    </section>
+    
     
     <div class="fade-in">
         <section id="overview">
             <p style="font-size: 2rem;">References:</p>
             <img src="Line_2.png" style="height:10px;width:450px;" alt="" >
-            <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
-                
+            <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>    
         </section>
     </div>
-        <section id="tophead">
-        <he1>Space reserved for footer</he1>
-        </section>
+
+    <section id="tophead">
+            <he1>Space reserved for footer</he1>
+    </section>
     
     <script type="text/javascript">
         window.addEventListener("load", function () {
             const loader = document.querySelector(".loader");
             loader.className += " hidden"; // new class = "loader hidden"
-        
         });
     </script>
     

@@ -69,7 +69,7 @@ p {
 /*Load Screen*/
    .thumb {
         height: 300px;
-        border: 1px solid black;
+        border: 1px solid ;
         margin: 10px;
         align-self: center ;
     }
@@ -89,7 +89,7 @@ p {
     }
     
     .loader.hidden {
-        animation: fadeout 1.5s;
+        animation: fadeout 1s;
         animation-fill-mode: forwards;
     }
     
@@ -99,6 +99,7 @@ p {
             visibility: hidden;
         }
     }
+
 
 
 
@@ -188,8 +189,8 @@ p {
     padding-right: 30px;
     border-radius: 10px;
     background: #C9CCD3;
- background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
- background-blend-mode: lighten;
+    background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: lighten;
     text-align: justify;
     font-family: 'Helvetica';
     font-size: 1.5rem;
@@ -211,6 +212,7 @@ article {
     font-size: 1.25rem;
     text-align: center;
     text-shadow: 0 2px 2px #b6701e;
+    font-size:1.5vw;
 }
 
 he1 {
@@ -226,7 +228,6 @@ he1 {
 
 .left-half1 {
     background: #ff9e2c;
-    background-image: ;
     border-radius: 500px;
     grid-column: 1;
     grid-row: 1;
@@ -260,6 +261,73 @@ he1 {
     grid-row: 5;
 }
 
+
+
+.pillcontainer {
+    display: grid;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+.pill-left {
+    background: red;
+    border-radius: 500px 0px 0px 500px;
+    grid-column: 1;
+    grid-row: 1;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.pill-right {
+    background: #e6e6e6 ;
+    border-radius: 0px 500px 500px 0px;
+    grid-column: 2;
+    grid-row: 1;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    
+}
+
+.pill-left-text{
+    font-size: 2rem;
+    height: 100%;
+    margin-top: 5.5%;
+    width: 100%;
+    text-align: right;
+    padding-bottom:10%;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 5%;
+}
+
+.pill-right-text{
+    font-size: 2rem;
+    margin-right: -40px;
+    margin-top: 3%;
+    width: 100%;
+    text-align: left;
+    padding-bottom:10%;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 1%;    
+}
+
+
+.pill-image-container {
+    position: relative;
+    text-align: center;
+    padding: 1%;
+}
+.centered {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'IBM Plex Serif', serif; 
+    font-size: 2.8rem;
+}
 
 
 /*Header gif*/
